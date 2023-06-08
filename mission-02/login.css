@@ -1,0 +1,135 @@
+/* base */
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "pretendard", Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+/* common */
+:root {
+  --primary-color: #ed552f;
+  --secondary-color: #e8852e;
+}
+
+.hidden {
+  overflow: hidden;
+  position: absolute;
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.border {
+  border: 0;
+  border-radius: 5px;
+}
+
+.loginForm {
+  width: 244px;
+  height: 161px;
+  background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  box-shadow: 5px 5px 0px #aaaaaa;
+  padding: 12px;
+}
+
+fieldset {
+  background-color: #ffffff;
+}
+
+.loginHeader {
+  color: #ffff00;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.inputForm {
+  position: relative;
+  width: 220px;
+  height: 69px;
+  padding: 8px;
+}
+
+/* .inputForm::after {
+  content: "";
+  display: block;
+  width: 210px;
+  height: 1px;
+  position: absolute;
+  left: 5px;
+  bottom: 0;
+  background-color: #cccccc;
+} */
+
+hr {
+  width: 210;
+  margin: 0 5px;
+  border: 0;
+  height: 1px;
+  background: #cccccc;
+}
+
+.inputForm li {
+  width: 146px;
+  height: auto;
+}
+
+.inputForm li:first-child {
+  margin-bottom: 4px;
+}
+
+label,
+input {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+label {
+  display: inline-block;
+  width: 52px;
+}
+
+input {
+  width: 90px;
+  height: 24px;
+  border-radius: 5px;
+  border: 2px solid #cccccc;
+}
+input[placeholder] {
+  padding-left: 8px;
+}
+
+.loginButton {
+  width: 50px;
+  height: 53px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.linkForm {
+  padding: 8px;
+  display: flow-root;
+}
+
+.linkForm li {
+  font-size: 13px;
+  line-height: 19.5px;
+  padding-left: 18px;
+}
+
+.linkForm li:first-child {
+  float: left;
+  padding-right: 14px;
+}
+.linkForm li:last-child {
+  float: right;
+}
