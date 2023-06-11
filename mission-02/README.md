@@ -22,7 +22,7 @@ Web Cafe 시안에 맞춰 로그인 폼을 구현.
 ---
 
 <br/>
-<img src="result.png">
+<img src="M2_result.png">
 <br/>
 <br/>
 <br/>
